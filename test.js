@@ -14,5 +14,6 @@ const ebook = new EBook({},
 
 ebook.render()
 ebook.base64().then(data => {
+  ebook.save()
   console.log(data)
 })
