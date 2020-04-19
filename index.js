@@ -1,3 +1,3 @@
 (() => {
-    module.exports = require("./lib");
-}).call(this);
+  module.exports = require('./lib')
+}).call(this)
