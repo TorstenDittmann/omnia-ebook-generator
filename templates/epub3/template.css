@@ -1,3 +1,16 @@
+body {
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.5em;
+    widows: 2;
+    orphans: 2;
+}
+
 .epub-author {
     color: #555;
 }

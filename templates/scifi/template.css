@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "SansationB";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/Sansation_Regular_Subset_Deep.ttf");
+}
+
+@font-face {
+    font-family: "SansationB";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./fonts/Sansation_Bold_Subset_Deep.ttf");
+}
+
+@font-face {
+    font-family: "StarFont36";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/StarFont36.ttf");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/SourceSansPro_Regular_Subset.ttf");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./fonts/SourceSansPro_Semibold_Subset.ttf");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    font-weight: normal;
+    font-style: italic;
+    src: url("./fonts/SourceSansPro_It_Subset.ttf");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("./fonts/SourceSansPro_SemiboldIt_Subset.ttf");
+}
+
+body {
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+.epub-author {
+    color: #555;
+}
+
+.epub-link {
+    margin-bottom: 30px;
+}
+
+.epub-link a {
+    color: #666;
+    font-size: 90%;
+}
+
+.toc-author {
+    font-size: 90%;
+    color: #555;
+}
+
+.toc-link {
+    color: #999;
+    font-size: 85%;
+    display: block;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #dedede;
+    margin: 60px 10%;
+}
+
+.chapter-number {
+    padding: 5px 0 5px 0;
+    border-top: 1px solid #545454;
+    border-bottom: 1px solid #545454;
+}
+
+.chapter-title {
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "SansationB",sans-serif;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.5em;
+    widows: 2;
+    orphans: 2;
+}

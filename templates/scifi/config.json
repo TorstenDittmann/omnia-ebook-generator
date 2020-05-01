@@ -1,0 +1,11 @@
+{
+    "assets": [
+        "fonts/Sansation_Bold_Subset_Deep.ttf",
+        "fonts/Sansation_Regular_Subset_Deep.ttf",
+        "fonts/SourceSansPro_It_Subset.ttf",
+        "fonts/SourceSansPro_Regular_Subset.ttf",
+        "fonts/SourceSansPro_Semibold_Subset.ttf",
+        "fonts/SourceSansPro_SemiboldIt_Subset.ttf",
+        "fonts/StarFont36.ttf"
+    ]
+}
