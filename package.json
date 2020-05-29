@@ -1,16 +1,13 @@
 {
-  "name": "@torstendittmann/ebook-generator",
+  "name": "omnia-ebook-generator",
   "version": "0.0.7",
-  "description": "",
+  "description": "Node.js e-book / epub3 generator.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Torsten Dittmann",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.2",
