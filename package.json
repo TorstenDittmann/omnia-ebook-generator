@@ -1,10 +1,10 @@
 {
   "name": "omnia-ebook-generator",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Node.js ebook generator using Embedded JavaScript templating.",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/torstendittmann/omnia-ebook-generator"
+    "type": "git",
+    "url": "https://github.com/torstendittmann/omnia-ebook-generator"
   },
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Torsten Dittmann",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.2",
     "jszip": "^3.4.0",
