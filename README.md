@@ -28,7 +28,7 @@
 
 ## Installation
 ```sh
-npm install omnia-ebook-generator
+npm i omnia-ebook-generator
 # or
 yarn add omnia-ebook-generator
 ```
