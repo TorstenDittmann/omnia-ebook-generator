@@ -22,7 +22,7 @@
 
 ## Features
 - __easy to use:__ simple to  generator
-- __clean output:__ every template meets the epub3 requirements 
+- __clean output:__ every template meets the EPUB requirements 
 - __templates:__ template system powered by EJS
 - __small api:__ with only 3 methods and a single constructor there's not much to learn
 
