@@ -1,7 +1,7 @@
 {
   "name": "omnia-ebook-generator",
-  "version": "0.0.7",
-  "description": "Node.js e-book / epub3 generator.",
+  "version": "0.0.8",
+  "description": "Node.js ebook generator using Embedded JavaScript templating.",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/torstendittmann/omnia-ebook-generator"
