@@ -17,6 +17,7 @@
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
+- [How to use](#how-to-use)
 - [API](#api)
 
 ## Features
@@ -59,7 +60,7 @@ const ebook = new EBook({
         }
       ]);
 
-ebook.render({ use: 'modern' }); // choose template here
+ebook.render();
 ebook.save('filename.epub');
 ```
 
