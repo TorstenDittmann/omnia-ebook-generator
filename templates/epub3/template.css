@@ -21,6 +21,7 @@ code {
     font-family: monospace;
     font-variant: no-common-ligatures lining-nums;
     font-feature-settings: "kern" 0, "liga" 0, "clig" 0, "lnum";
+    white-space: pre-wrap;
 }
 
 pre {
