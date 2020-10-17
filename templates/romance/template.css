@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Rondal";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./fonts/RondalBold-2O4lW.otf");
+}
+
+@font-face {
+    font-family: "Rondal";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/RondalRegular-K7ORW.otf");
+}
+
+body {
+    line-height: 1.5;
+    text-align: left;
+    font-kerning: normal;
+    font-variant: common-ligatures oldstyle-nums proportional-nums;
+    font-feature-settings: "kern", "liga", "clig", "onum", "pnum";
+}
+
+body * {
+    line-height: inherit;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    text-align: center;
+    font-variant: common-ligatures lining-nums proportional-nums;
+    font-feature-settings: "kern", "liga", "clig", "lnum", "pnum";
+}
+
+code {
+    font-family: monospace;
+    font-variant: no-common-ligatures lining-nums;
+    font-feature-settings: "kern" 0, "liga" 0, "clig" 0, "lnum";
+}
+
+pre {
+    margin: 1em 0.5em;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 8px #ccc;
+    padding: 0.5em;
+}
+
+h1, h2, h3, code {
+    line-height: 1.2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -epub-hyphens: none;
+    adobe-hyphenate: none;
+    hyphens: none;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Rondal",sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Rondal",sans-serif;
+}
+
+p, blockquote {
+    font-family: serif;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 2;
+    -webkit-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-chars: 6 3 2;
+    hyphenate-limit-chars: 6 3 2;
+    hyphenate-limit-lines: 2;
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 3em;
+    text-indent: -1.2ch;
+}
+
+blockquote:before {
+    content: "\201C\00A0";
+}
+
+blockquote:after {
+    content: "\00A0\201D";
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.25em;
+    text-align: justify;
+    widows: 2;
+    orphans: 2;
+}
+
+a, a:link, a:visited {
+    color: inherit;
+    -webkit-text-fill-color: inherit;
+    text-decoration: underline dotted #888;
+}
+
+a:active, a:hover {
+    color: blue;
+    text-decoration: underline solid blue;
+}
+
+.epub-author {
+    color: #555;
+}
+
+.epub-link {
+    margin-bottom: 30px;
+}
+
+.epub-link a {
+    color: #666;
+    font-size: 90%;
+}
+
+.toc-author {
+    font-size: 90%;
+    color: #555;
+}
+
+.toc-link {
+    color: #999;
+    font-size: 85%;
+    display: block;
+}
+
+.toctitle {
+    font-size: 300%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    height: 1em;
+    border: 0;
+    margin: 1.5em auto;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+hr:before {
+    content: '* * *';
+}
+
+.divider {
+    display: block;
+    border-top: 3px solid #545454;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: -0.5em;
+}
