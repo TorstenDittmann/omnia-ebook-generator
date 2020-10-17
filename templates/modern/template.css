@@ -22,6 +22,10 @@ div.content p {
     text-align: justify;
 }
 
+div.content code {
+    white-space: pre-wrap;
+}
+
 div.content p:first-child {
     text-indent: 0em;
 }
